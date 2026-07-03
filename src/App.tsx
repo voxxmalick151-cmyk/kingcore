@@ -8,6 +8,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
 import Services from './components/Services';
+import Portfolio from './components/Portfolio';
 import BentoDifferentials from './components/BentoDifferentials';
 import Testimonials from './components/Testimonials';
 import WhatsAppWidget from './components/WhatsAppWidget';
@@ -50,6 +51,9 @@ export default function App() {
 
         {/* Dynamic & Detailed Service scopes */}
         <Services onContactClick={(title) => handleContactClick(title)} />
+
+        {/* Real results portfolio and client success studies */}
+        <Portfolio />
 
         {/* Grid of technological & conversion differences */}
         <BentoDifferentials />

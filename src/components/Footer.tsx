@@ -81,6 +81,7 @@ export default function Footer({ onContactClick }: FooterProps) {
                 { label: 'Início', id: 'hero' },
                 { label: 'Sobre', id: 'about' },
                 { label: 'Serviços', id: 'services' },
+                { label: 'Portfólio', id: 'portfolio' },
                 { label: 'Diferenciais', id: 'differentials' },
                 { label: 'Depoimentos', id: 'testimonials' },
                 { label: 'FAQ', id: 'faq' }

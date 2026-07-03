@@ -7,24 +7,40 @@ import { ServiceItem, TestimonialItem, FAQItem } from './types';
 
 export const SERVICES: ServiceItem[] = [
   {
-    id: 'landing-pages',
-    title: 'Landing Pages Ultra-Conversoras',
-    description: 'Páginas de vendas de alto impacto com carregamento sub-segundo, focadas 100% em converter tráfego de anúncios (Google/Meta Ads) em vendas.',
-    longDescription: 'Desenvolvemos landing pages exclusivas e codificadas do zero (sem usar construtores lentos como Elementor ou WordPress). Cada elemento visual, seção de copywriting e fluxo interativo é planejado cientificamente para guiar o usuário até a ação de conversão. Seus anúncios terão um custo por clique menor devido ao excelente índice de desempenho técnico.',
-    iconName: 'Zap',
+    id: 'institutional-websites',
+    title: 'Sites Institucionais de Alta Performance',
+    description: 'Sites institucionais modernos que transmitem autoridade imediata, estabelecem seu posicionamento de luxo e capturam novos leads todos os dias.',
+    longDescription: 'Sua empresa não deve parecer amadora. Criamos sites de nível corporativo premium com design focado em autoridade, transições elegantes e navegação inteligente. Desenvolvido com as melhores práticas de SEO (Otimização para Mecanismos de Busca), ajudando seu negócio a aparecer organicamente nas primeiras posições do Google, perfeito para clínicas, escritórios e serviços locais.',
+    iconName: 'ShieldCheck',
     features: [
-      'Copywriting focado em Vendas (AIDA)',
-      'Desempenho 100/100 no Google PageSpeed',
-      'Integração Avançada de Pixels e APIs de Conversão',
-      'Layout Mobile-First de Extrema Fluidez',
-      'Design sob medida com identidade visual Tiffany'
+      'Design Exclusivo e Fluido (Micro-transições)',
+      'SEO Técnico Avançado (Otimização Local e Nacional)',
+      'Páginas de Serviços, Sobre, Contato e Blog',
+      'Segurança Avançada contra Invasões e Quedas',
+      'Painel Administrativo sob medida para gestão fácil'
     ],
-    priceEst: 'A partir de R$ 1.800',
-    deliveryTime: '7 a 10 dias úteis'
+    priceEst: 'A partir de R$ 2.800',
+    deliveryTime: '10 a 15 dias úteis'
+  },
+  {
+    id: 'e-commerce-stores',
+    title: 'Lojas Virtuais & Delivery Sob Medida',
+    description: 'E-commerces rápidos e integrados que transformam visitantes em compradores fiéis, sem depender de taxas abusivas de terceiros.',
+    longDescription: 'Seja para uma loja física expandindo para o online ou um restaurante otimizando seu delivery próprio, criamos plataformas robustas, intuitivas e totalmente responsivas. Integração completa com meios de pagamento (Pix, Cartão), cálculo de frete inteligente e painel administrativo intuitivo para você gerenciar seu estoque e pedidos em tempo real.',
+    iconName: 'ShoppingBag',
+    features: [
+      'Checkout Exclusivo de Alta Conversão',
+      'Cálculo de Frete Inteligente & Rotas de Entrega',
+      'Integração Completa de Meios de Pagamento (Pix/Cartão)',
+      'Painel de Gestão de Estoque e Vendas Simplificado',
+      'Carregamento ultra-rápido focado em Mobile'
+    ],
+    priceEst: 'A partir de R$ 4.500',
+    deliveryTime: '15 a 25 dias úteis'
   },
   {
     id: 'whatsapp-automation',
-    title: 'Automação & Bots de WhatsApp',
+    title: 'Automação Comercial & Bots de WhatsApp',
     description: 'Integração de assistentes virtuais inteligentes e fluxos automatizados que qualificam leads, respondem dúvidas frequentes e aquecem o cliente 24/7.',
     longDescription: 'Não perca mais nenhuma venda por demora no atendimento. Criamos robôs de atendimento personalizados integrados com o seu site. Quando o cliente entra em contato, o bot faz a triagem imediata, coleta dados cruciais (como orçamento e necessidades), e passa o lead pronto para seu fechamento comercial ou finaliza a venda automaticamente.',
     iconName: 'MessageSquareShare',
@@ -35,40 +51,40 @@ export const SERVICES: ServiceItem[] = [
       'Envio de Mídias Automatizadas (Áudio, PDF, Imagens)',
       'Relatórios e Métricas de Atendimento em Tempo Real'
     ],
-    priceEst: 'A partir de R$ 2.200',
-    deliveryTime: '10 a 15 dias úteis'
+    priceEst: 'A partir de R$ 1.800',
+    deliveryTime: '7 a 12 dias úteis'
   },
   {
-    id: 'institutional-websites',
-    title: 'Sites Corporativos Premium',
-    description: 'Sites institucionais modernos que transmitem autoridade imediata, estabelecem seu posicionamento de luxo e capturam novos leads todos os dias.',
-    longDescription: 'Sua empresa não deve parecer amadora. Criamos sites de nível corporativo premium com design focado em autoridade, transições elegantes e navegação inteligente. Desenvolvido com as melhores práticas de SEO (Otimização para Mecanismos de Busca), ajudando seu negócio a aparecer organicamente nas primeiras posições do Google.',
-    iconName: 'ShieldCheck',
+    id: 'seo-marketing',
+    title: 'SEO Avançado & Posicionamento Local',
+    description: 'Destaque-se no Google Search e Google Maps. Coloque seu comércio físico na frente de todos os clientes em sua região.',
+    longDescription: 'Aparecer no topo do Google quando alguém busca pelo seu serviço na sua cidade é o marketing de maior retorno do mundo. Otimizamos toda a estrutura de SEO técnico do seu site, cadastramos e estruturamos seu perfil de Negócio no Google (antigo Google Meu Negócio), criamos estratégias de palavras-chave locais e otimizamos a experiência do usuário para buscas mobile.',
+    iconName: 'TrendingUp',
     features: [
-      'Design Exclusivo e Fluido (Micro-transições)',
-      'SEO Técnico Avançado (Otimização Local e Nacional)',
-      'Páginas de Serviços, Sobre, Contato e Blog',
-      'Segurança Avançada contra Invasões e Quedas',
-      'Painel Administrativo sob medida para gestão fácil'
+      'Otimização Google Meu Negócio Extrema',
+      'Pesquisa e Mapeamento de Palavras-Chave de Alta Conversão',
+      'SEO Técnico Avançado (velocidade, sitemap, robots.txt)',
+      'Estratégias de Link Building Local e Autoridade',
+      'Relatório de Desempenho e Posicionamento Mensal'
     ],
-    priceEst: 'A partir de R$ 3.500',
-    deliveryTime: '15 a 20 dias úteis'
+    priceEst: 'A partir de R$ 1.200/mês',
+    deliveryTime: 'Estratégia Contínua'
   },
   {
-    id: 'custom-systems',
-    title: 'Plataformas e Sistemas Web',
-    description: 'Desenvolvimento de dashboards inteligentes, painéis de controle e soluções SaaS sob demanda para automatizar sua operação comercial.',
-    longDescription: 'Se sua empresa precisa de uma ferramenta personalizada, banco de dados robusto, área de membros exclusiva ou painel de análise de dados, nós construímos com arquiteturas escaláveis. Sistemas 100% integrados via APIs, responsivos e otimizados para segurança máxima de dados corporativos.',
-    iconName: 'Cpu',
+    id: 'maintenance-support',
+    title: 'Suporte Dedicado & Manutenção Ativa',
+    description: 'Sua paz de espírito garantida. Monitoramos, atualizamos e otimizamos seu site 24/7 para você focar apenas em vender.',
+    longDescription: 'Um site fora do ar é prejuízo garantido. Com nosso serviço de suporte e manutenção ativa, cuidamos de toda a infraestrutura técnica. Realizamos backups diários, atualizações de segurança constantes, monitoramento em tempo real de tentativas de invasão, correção imediata de bugs e pequenas alterações de textos e imagens inclusas.',
+    iconName: 'Wrench',
     features: [
-      'Arquiteturas de Nuvem Escaláveis e Seguras',
-      'Painéis de Controle (Dashboards) Interativos',
-      'Banco de Dados de Alta Performance',
-      'Sistemas de Login Seguro e Níveis de Permissão',
-      'Automatização de Fluxos de Trabalho Internos'
+      'Monitoramento de Status de Hospedagem 24/7',
+      'Backups Diários Automatizados na Nuvem',
+      'Atualizações Críticas de Segurança e Performance',
+      'Tempo de Resposta de Suporte em até 4h via WhatsApp',
+      'Incluso Pequenas Alterações de Conteúdo Mensais'
     ],
-    priceEst: 'Sob Consulta',
-    deliveryTime: 'Sob Planejamento'
+    priceEst: 'A partir de R$ 250/mês',
+    deliveryTime: 'Atendimento Mensal'
   }
 ];
 

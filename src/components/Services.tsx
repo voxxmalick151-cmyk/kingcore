@@ -5,7 +5,7 @@
 
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { Zap, MessageCircleCode, ShieldAlert, Cpu, ArrowRight, Check, Send, Sparkles } from 'lucide-react';
+import { Zap, MessageCircleCode, ShieldAlert, Cpu, ArrowRight, Check, Send, Sparkles, ShoppingBag, TrendingUp, Wrench } from 'lucide-react';
 import { SERVICES } from '../data';
 import { ServiceItem } from '../types';
 
@@ -27,6 +27,12 @@ export default function Services({ onContactClick }: ServicesProps) {
         return <ShieldAlert className="w-6 h-6 text-[#21f1a8]" />;
       case 'Cpu':
         return <Cpu className="w-6 h-6 text-[#21f1a8]" />;
+      case 'ShoppingBag':
+        return <ShoppingBag className="w-6 h-6 text-[#21f1a8]" />;
+      case 'TrendingUp':
+        return <TrendingUp className="w-6 h-6 text-[#21f1a8]" />;
+      case 'Wrench':
+        return <Wrench className="w-6 h-6 text-[#21f1a8]" />;
       default:
         return <Zap className="w-6 h-6 text-[#21f1a8]" />;
     }
