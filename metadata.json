@@ -1,0 +1,6 @@
+{
+  "name": "King Core",
+  "description": "Estúdio premium de desenvolvimento web ultra-veloz de alta conversão integrado com automações inteligentes no WhatsApp",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
